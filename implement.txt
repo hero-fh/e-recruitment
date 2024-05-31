@@ -1,0 +1,104 @@
+What should be implemented
+Applicant side(done)
+	Removing some required input fields in registration form (The information that is not present during the exam like the government ids)
+	Changing current address input text into dropdown list (CALABARZON)
+	Removing of choosing what exam to take. After registration the system will automatically redirect to examination page
+	Remove displaying of score/passed or failed
+	Adding timer to the exam. The system will now automatically pass the exam finish or not finish.
+Admin side(done)
+	Account type that will hide some applicant information
+	Exam input score on some exam item points that is > 1
+	Removing of technician exam on the system. It’ll only display the questions.9:23 am 06/02/20239:30 am 06/02/2023
+	Exporting some of the applicant information from database into an excel file
+
+Changes didnt discuss on meeting
+Sorting of applicants by application
+	-operator
+	-staff
+	-qa engineer
+	-technician
+update applicant function
+	nilagay ko dito yung mga pwedeng mabago sa isang applicant or mga hindi nila alam na pwede idagdag.
+	example 
+		gov ids 
+		vaccinations 
+		address
+		mid and lastname
+		civil status
+		name of spouse
+		contact person
+		sometimes if error in input - application for operator/qaengineer/staff/technician
+Work experience
+Siblings
+account error msgs
+
+failed or passed update(done)
+accept privacy policy(done)
+
+Export ay yung fit to work(done)2:04 pm 06/14/2023
+application => 1st 2nd 3rd choice (done)
+
+delete folder pag wala ng laman ang requirements(done)
+
+dashboard(done)
+pending applications
+incomplete requirements
+fit to work
+all applications
+
+!!!!!QUESTIONS!!!!!
+Yung assessment at requirements po ba ay ipapakita din sa audit account?//
+tumatanggap padin ba ng applicants that are failed on exam?//
+kapag po ba bagsak sa exam pero recommended wala an talaga?
+
+
+note!!!!
+dapat before sila pumunta sa pc or kapag mag aassess doon sila papipirmahin.
+
+automatic input yung zipcode kapag naginput ng municipality walanag existin array na kasama ang zip codes(not yet existing)
+gawin red yung asterisk <b style="color:#FF0000" ;>*</b> (done)
+i clone ang siblings input(done)
+i clone ang work input(done)
+dopdown highest educ tapos kapag  true irequired course
+percent and sa exam score(done)
+alisin ang max ng exam score(done)
+save data privacy form with esign//
+excel after email exam score kung pasado the 1st assessment kung pasado tas final assesment
+date sign on assessmeent view
+assessment passed or failed(done)
+-kapag fail sa exam wala ng interview(done)
+-kapag fail sa interview wala ng final(done)
+auto delete afte 2yars//
+clone booster input(done)
+excel reporting passed failed
+pwede iedit ang position sa assessment tapos makikita sya sa excel
+view applicants nandon na lahat pati assessment(done)
+kayang mag delete ng pdf files after 1year
+
+
+idadagdag
+-graph on pass or fail sa bwaat month
+-passing rate
+
+
+
+
+inalis sa database
+-siblings
+-workexperience
+-booster
+
+binago sadtaabase
+-render overtime 0=no 1=yes
+-computer literate 0=no 1=yes
+
+binago sa address ginawalng buong pilipinas
+
+
+
+friday ayaw mag save!!!!!
+
+
+Bawal mag null or 0 ang initial interview
+
+----------------------------sa update na to aalisin ko na assessment sa index-------------------------

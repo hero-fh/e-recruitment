@@ -1,0 +1,139 @@
+    img#cimg {
+        height: 15vh;
+        width: 15vh;
+        object-fit: scale-down;
+        object-position: center center;
+        border-radius: 100% 100%;
+    }
+
+    input[type="text"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    ::-webkit-input-placeholder {
+        text-align: center;
+    }
+
+    :-moz-placeholder {
+        text-align: center;
+    }
+
+    .select2-container--default .select2-selection--single {
+        border-radius: 0;
+    }
+
+    input[type="number"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    input[type="date"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .accordion {
+        /* background-color: #eee; */
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #ccc;
+    }
+
+    .toggle.accordion {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .toggle.accordion::after {
+        content: '\276F';
+        /* Unicode character for right-pointing triangle */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+
+    .toggle.accordion.open::after {
+        content: '\276F';
+        /* Unicode character for down-pointing triangle */
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+    .toggle1.accordion {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .toggle1.accordion::after {
+        content: '\276F';
+        /* Unicode character for right-pointing triangle */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+
+    .toggle1.accordion.open::after {
+        content: '\276F';
+        /* Unicode character for down-pointing triangle */
+        transform: translateY(-50%) rotate(90deg);
+    }
+
+
+
+    .toggle2.accordion {
+        position: relative;
+        cursor: pointer;
+    }
+
+    .toggle2.accordion::after {
+        content: '\276F';
+        /* Unicode character for right-pointing triangle */
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        transition: transform 0.3s ease;
+    }
+
+    .toggle2.accordion.open::after {
+        content: '\276F';
+        /* Unicode character for down-pointing triangle */
+        transform: translateY(-50%) rotate(90deg);
+    }
+    .hover {
+        background:
+            linear-gradient(-45deg, #000 40%, #fff 0 60%, #000 0) right/300% 100% no-repeat,
+            linear-gradient(-45deg, #0000 40%, #28a745  0 60%, #0000 0) right/300% 100% no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 1s
+    }
+    
+    .hover:hover {
+        background-position: left;
+    }
+    

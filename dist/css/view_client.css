@@ -1,0 +1,136 @@
+.notes {
+    background-attachment: local;
+    background-image:
+        linear-gradient(to right, white 10px, transparent 10px),
+        linear-gradient(to left, white 10px, transparent 10px),
+        repeating-linear-gradient(white, white 30px, #ccc 30px, #ccc 31px, white 31px);
+    line-height: 31px;
+    padding: 8px 10px;
+    width: 100%;
+    resize: none;
+    border: 0;
+}
+.input-wrapper {
+    position: relative;
+}
+
+.input-wrapper::after {
+    content: '%';
+    position: absolute;
+    right: 10px;
+    /* Adjust the value as needed for proper positioning */
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    /* This allows clicking through the "%" sign */
+}
+    img#cimg {
+        height: 15vh;
+        width: 15vh;
+        object-fit: scale-down;
+        object-position: center center;
+        border-radius: 100% 100%;
+    }
+
+    input[type="text"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    ::-webkit-input-placeholder {
+        text-align: left;
+    }
+
+    :-moz-placeholder {
+        text-align: left;
+    }
+
+    .select2-container--default .select2-selection--single {
+        border-radius: 0;
+    }
+
+    input[type="number"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    input[type="date"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    select.form-control {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: left;
+        font-weight: bold;
+    }
+
+
+    input.form-control:read-only {
+        background-color: #fff;
+    }
+    select.form-control:disabled {
+        background-color: #fff;
+    }
+
+    img#cimg {
+        height: 20vh;
+        width: 20vh;
+        object-fit: scale-down;
+        object-position: center center;
+    }
+
+    textarea[type="text"] {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        font-weight: bold;
+    }
+
+    textarea.form-control:read-only {
+        background-color: #fff;
+    }
+
+    .accordion {
+        background-color: #eee;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+    }
+
+    .active,
+    .accordion:hover {
+        background-color: #808080;
+    }
+    .hover {
+        background:
+            linear-gradient(-45deg, #000 40%, #fff 0 60%, #000 0) right/300% 100% no-repeat,
+            linear-gradient(-45deg, #0000 40%, #28a745  0 60%, #0000 0) right/300% 100% no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 1s
+    }
+    
+    .hover:hover {
+        background-position: left;
+    }
+
+    
+   

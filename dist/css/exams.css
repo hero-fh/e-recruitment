@@ -1,0 +1,57 @@
+
+    #exam-list:empty:after {
+        content: "No exams listed yet.";
+        color: '#000';
+        text-align: center;
+    }
+
+    .exam-item {
+        cursor: pointer;
+        transition: transform .2s ease-in;
+    }
+
+    .exam-item-1 {
+        cursor: not-allowed;
+        transition: transform .2s ease-in;
+    }
+
+    .exam-item:hover {
+        transform: scale(.95);
+
+    }
+
+    .exam-item-1:hover {
+        transform: scale(.95);
+
+    }
+
+    .custom-height {
+        height: 30vh;
+    }
+    
+
+    .hover {
+        background:
+            linear-gradient(-45deg, #000 40%, #fff 0 60%, #000 0) right/300% 100% no-repeat,
+            linear-gradient(-45deg, #0000 40%, #16FF00 0 60%, #0000 0) right/300% 100% no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 1s
+    }
+
+    .hover:hover {
+        background-position: left;
+    }
+
+    .hover1 {
+        background:
+            linear-gradient(-45deg, #000 40%, #fff 0 60%, #000 0) right/300% 100% no-repeat,
+            linear-gradient(-45deg, #0000 40%, #E9F8F9 0 60%, #0000 0) right/300% 100% no-repeat;
+        -webkit-background-clip: text, padding-box;
+        background-clip: text, padding-box;
+        transition: 1s
+    }
+
+    .hover1:hover {
+        background-position: left;
+    }

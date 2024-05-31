@@ -1,0 +1,214 @@
+
+    .max-width-cell {
+        max-width: 70%;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+
+    .shrink-text-input {
+        width: 70%;
+        max-width: 70%;
+    }
+    input.form-control:read-only {
+        background-color: transparent;
+    }
+    .wbot {
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .xbot {
+        border: 0;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+        padding: 0;
+    }
+    .xwbot {
+        /* border: 0;*/
+
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+        padding: 0;
+    }
+    .xrbot {
+        border: 0;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+        padding: 0;
+        text-align: justify;
+    }
+
+    .image-with-signature {
+        text-align: center;
+    }
+
+    .signature-line {
+        height: 1px;
+        background-color: black;
+    }
+
+    .signature-image {
+        display: block;
+        margin: 0 auto;
+        height: 50px;
+        width: auto;
+    }
+
+    .date {
+        display: block;
+        margin: 0 auto;
+        height: 50px;
+        width: auto;
+        text-align: center;
+        font-size: 12pt;
+        font-family: Verdana, sans-serif;
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .date1::-webkit-calendar-picker-indicator {
+        background: transparent;
+        bottom: 0;
+        color: transparent;
+        cursor: pointer;
+        height: auto;
+        left: 0;
+        position: absolute;
+        right: 0;
+        top: 0;
+        width: auto;
+    }
+
+    .date2 {
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        font-size: 12pt;
+        font-family: Verdana, sans-serif;
+        border: 0;
+        border-bottom: 1px solid black;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+    .date1 {
+        display: block;
+        margin: 0 auto;
+        width: auto;
+        text-align: center;
+        font-size: 12pt;
+        font-family: Verdana, sans-serif;
+        border: 0;
+        outline: 0;
+        text-align: center;
+        font-weight: bold;
+        background-color: transparent;
+    }
+
+
+    .signature-text {
+        text-align: center;
+        font-size: 12pt;
+        font-family: Verdana, sans-serif;
+    }
+
+    .image-container {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .holder {
+        width: 400px;
+        margin: 0 auto;
+    }
+
+
+    .check {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        opacity: 0;
+    }
+
+    .path1 {
+        stroke-dasharray: 400;
+        stroke-dashoffset: 400;
+        transition: .5s all;
+    }
+
+    .path2 {
+        stroke-dasharray: 1800;
+        stroke-dashoffset: 1800;
+        transition: .5s all;
+    }
+
+    .check:checked+label svg g path {
+        stroke-dashoffset: 0;
+    }
+
+    .sign {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .sign-name {
+        border: 0;
+        font-size: .8vw;
+        padding: 0;
+        text-align: center;
+        line-height: 1;
+    }
+
+    .sign-detail {
+        border: 0;
+        padding: 0;
+        font-size: .5vw;
+        line-height: 1;
+    }
+
+    .sign-tr {
+        border: 0;
+        padding: 0;
+    }
+
+    .esign {
+        margin-bottom: 0;
+        padding: 0;
+    }
+
+    .esign-name {
+        border: 0;
+        font-size: 1vw;
+        padding: 0;
+        text-align: center;
+    }
+
+    .esign-detail {
+        border: 0;
+        padding: 0;
+        font-size: .8vw;
+        line-height: 1;
+    }
+
+    .esign-tr {
+        border: 0;
+        padding: 0;
+    }
